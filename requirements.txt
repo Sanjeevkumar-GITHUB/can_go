@@ -15,6 +15,7 @@ decorator==5.1.0
 defusedxml==0.7.1
 entrypoints==0.3
 Flask 
+gunicorn
 idna 
 importlib-metadata==4.8.2
 importlib-resources==5.4.0
