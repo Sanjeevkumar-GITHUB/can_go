@@ -27,13 +27,13 @@ def predict():
     output = prediction
     
     # Check the output values and retrive the result with html tag based on the value
-    if output == 'High':
+    if output == 3:
         return render_template('index1.html', 
                                result = 'The patient is likely to have high risk!')
-    elif output == 'Low' :
+    elif output == 1:
         return render_template('index1.html', 
                                result = 'The patient is likely to have low risk!')
-    else:
+    elif output == 2:
          return render_template('index1.html', 
                                result = 'The patient is likely to have medium risk!')
 
