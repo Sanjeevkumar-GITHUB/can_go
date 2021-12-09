@@ -52,6 +52,7 @@ parso==0.8.2
 pickleshare==0.7.5
 prometheus-client==0.12.0
 prompt-toolkit==3.0.22
+python==3.7.3
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 Pygments==2.10.0
 pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
